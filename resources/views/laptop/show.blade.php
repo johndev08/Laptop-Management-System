@@ -11,7 +11,7 @@
 
 <body>
     <div class="max-w-screen flex min-h-screen">
-        <div class="min-w-sm bg-gray-300 rounded-md p-5 m-auto">
+        <div class="min-w-xs lg:min-w-md md:min-w-sm bg-gray-300 rounded-md p-5 m-auto">
             <p class="text-center text-3xl font-bold">{{ $laptop->laptopname }}</p>
             <div class="py-3">
                 <p><b>Processor:</b> {{ $laptop->processor }}</p>
